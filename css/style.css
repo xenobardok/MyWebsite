@@ -7,6 +7,7 @@
 body{
 	font-family: Raleway;
 	color: #394247;
+	margin: 0;
 }
 
 h1{
@@ -30,8 +31,9 @@ hr {
 }
 
 .section{
-	height: 85%;
+	height: 100%;
 	width: 100%;
+	flex: 0 1 40px;
 }
 
 #main{
@@ -132,4 +134,15 @@ h3{
 
 .fa-linkedin-square:hover, .fa-linkedin-square:active, .fa-linkedin-square:focus{
 	color: #007bb5;
+}
+
+.three{
+	background-color: #ccad8e;
+}
+
+.two{
+	background-color: blue;
+}
+.one{
+	background-color: pink;
 }
