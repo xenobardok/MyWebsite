@@ -20,14 +20,14 @@
 		<div class="container">
 			<div id="content">
 				<h1 class="animated fadeInUp">Welcome!</h1>
-				<h3 class="animated fadeInUp">A website of a <span class="typed"><span class="typed-cursor"></span></span> coder.</h3>
+				<h3 class="animated fadeInUp" id="subHead">A website of a <span class="typed"><span class="typed-cursor"></span></span> coder.</h3>
 
 				<hr class="animated fadeInUp"/>
 				<a href="#sectionOne" class="smoothScroll"><button class="btn btn-default btn-lg animated infinite pulse"><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;Know me!</button></a>
 			</div>
 		</div>
 	</div>
-	<div class="section" name="sectionOne">
+	<div class="section" name="sectionOne" id ="one">
 		<div class="container">
 			<div class="row">
 				<h2 class="col-lg-12" id="proHeader">About Me</h2>
@@ -35,7 +35,7 @@
 			<div>
 				<h3 class="centerAlign">I am Sunil Jamkatel and I love programming.<br/> Feel free to browse through these links and get to know me.</h3>
 			</div>
-			<div class="row proHeader">
+			<div id="socialRow">
 				<div class="col-md-2 col-xs-6 ">
 					<a href="https://www.facebook.com/Sunil.jamkatel7"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 				</div>
@@ -54,9 +54,10 @@
 				<div class="col-md-2 col-xs-6 ">
 					<a href="https://github.com/suniljamkatel"><i class="fa fa-github" aria-hidden="true"></i></a>
 				</div>
+			</div>
 		</div>
 	</div>
-	<div class="section" name="sectionTwo">
+	<div class="section" name="sectionTwo" id = "two">
 	<div class="container">
 		<div class="row">
 			<h2 class="col-lg-12" id="proHeader">Projects that define me.</h2>
@@ -89,7 +90,7 @@
 			</div>
 		</div>
 		</div>
-
+		</div>
 		<div class="section" name="sectionThree">
 		<div class="container">
 			<div class="row">
@@ -108,6 +109,7 @@
 	<script type="text/javascript" src="js/smoothscroll.js"></script>	
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 	<script>
   		$(".typed").typed({
 	    	strings: ["junior", "hard-working", "smart", "cute"],

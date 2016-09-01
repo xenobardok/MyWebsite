@@ -30,7 +30,7 @@ hr {
 }
 
 .section{
-	height: 85%;
+	height: auto;
 	width: 100%;
 }
 
@@ -96,18 +96,14 @@ a{
 	color: #394247;
 }
 
-h3{
-	font-size: 3vh;
-}
 .fa-facebook-official, .fa-twitter, .fa-instagram, .fa-youtube, .fa-github, .fa-linkedin-square, .fa-google-plus-square{
-	font-size: 10vmax;
-	padding: 0 auto;
+	font-size: 1000%;
+	/*padding: 0 auto;*/
 }
 
 
 .col-xs-6{
 	text-align: center;
-	padding: 5vw;
 }
 
 .fa-facebook-official:hover, .fa-facebook-official:active, .fa-facebook-official:focus{
@@ -132,4 +128,21 @@ h3{
 
 .fa-linkedin-square:hover, .fa-linkedin-square:active, .fa-linkedin-square:focus{
 	color: #007bb5;
+}
+
+#subHead{
+	font-size: 2vmax;
+}
+
+
+#two{
+	background-image:
+	    radial-gradient(
+	      rgba(255,255,0,0.55),
+	      rgba(240,109,6,0.75)
+	    );
+}
+#socialRow{
+	padding-top: 4%;
+	padding-bottom: 4%;
 }
