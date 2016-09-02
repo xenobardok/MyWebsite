@@ -1,1 +1,2 @@
-var one = document.querySelector()
+var background = document.querySelector("#main");
+
